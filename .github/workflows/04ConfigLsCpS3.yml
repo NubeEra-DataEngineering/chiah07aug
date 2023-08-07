@@ -16,5 +16,5 @@ jobs:
         run: |
           aws ec2 create-security-group \
             --group-name sgchiahgithubactions \ 
-            --description "test description"
+            --description "test description" \
             --vpc-id vpc-08e5bc89ab4518ee3
