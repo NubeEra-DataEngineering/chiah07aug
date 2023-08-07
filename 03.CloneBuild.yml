@@ -1,4 +1,4 @@
-name: Practice3 - fresh machine, clone git repo, lists then aws s3
+name: Practice3 - fresh machine, clone git repo, lists, aws s3
 on:
     push:
         branches: [main]
