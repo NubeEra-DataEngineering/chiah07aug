@@ -1,0 +1,16 @@
+name: Practice2 - multiple os build and test
+on:
+    push:
+        branches: [master]
+    pull_request:
+        branches: [main]
+
+jobs:
+  Job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Detected Event is ${{ github.event_name }}"
+  Job2:
+    runs-on: windows-latest
+    steps:
+      - run: echo "Detected Event is ${{ github.event_name }}"
