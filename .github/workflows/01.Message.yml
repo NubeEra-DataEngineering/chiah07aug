@@ -1,5 +1,4 @@
-name: Pracice writing YAML file
-on: [push]
+name: Practice writing YAML fileon: [push]
 jobs:
   Job1:
     runs-on: ubuntu-latest
@@ -7,4 +6,4 @@ jobs:
       -run: echo "Welcome to Ubuntu Linux"
       -run: pwd
       -name: Checking Github workplace wih reserve variable
-        run: ls ${{github.workspace}}
+        run: ls ${{ github.workspace }}
