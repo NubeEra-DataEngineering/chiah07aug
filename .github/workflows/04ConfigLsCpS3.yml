@@ -17,14 +17,4 @@ jobs:
           aws ec2 create-security-group \
             --group-name sgchiahgithubactions \ 
             --description "test description"
-            --vpc-id 
-
-
-
-
-              - name: Creating SG
-        run: |
-          aws ec2 create-security-group \
-            --group-name sgmujahedgithubactions \
-            --description "test desc" \
             --vpc-id vpc-08e5bc89ab4518ee3
