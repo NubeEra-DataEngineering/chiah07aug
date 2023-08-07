@@ -1,4 +1,5 @@
-name: Practice writing YAML fileon: [push]
+name: Practice writing YAML file
+on: [push]
 jobs:
   Job1:
     runs-on: ubuntu-latest
